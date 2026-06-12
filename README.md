@@ -4,11 +4,11 @@ This library serves as a Dynamic JSON Powered Form rendering library for [Angula
 providing a JSON schema to a ```<formio>``` Angular component, where that form is dynamically rendered within the front
 end application. This allows forms to be dynamically built using JSON schemas.
 
+## Please note that Form.io Open Source Repositories are maintained and all latest versions are available via NPM. 
+
 Angular Versions
 -------------------------
 This library supports many different Angular Versions. To use this library with the correct version of Angular, please refer to the Compatibility matrix here: https://help.form.io/dev/javascript-frameworks#angular-versions
-
-## Please note that Form.io Open Source Repositories are maintained and all latest versions are available via NPM. 
 
 ## For the latest version, install via the following commands:
 
