@@ -6,24 +6,11 @@ end application. This allows forms to be dynamically built using JSON schemas.
 
 Angular Versions
 -------------------------
-This library supports many different Angular Versions. If you wish to use this library with your specific version of Angular, then you will need to install the following versions.
+This library supports many different Angular Versions. To use this library with the correct version of Angular, please refer to the Compatibility matrix here: https://help.form.io/dev/javascript-frameworks#angular-versions
 
+## Please note that Form.io Open Source Repositories are maintained and all latest versions are available via NPM. 
 
-*Angular Compatibility*
-| **@formio/angular** | **Angular Version** | **formiojs*** |
-|---------------------|---------------------|--------------|
-| 6.0.0               | 16                  | 4.x          |
-| 6.5.0               | 16                  | 5.x          |
-| 7.0.0               | 17                  | 4.x          |
-| 7.5.0               | 17                  | 5.x          |
-| 8.0.0               | 18                  | 5.x          |
-| 9.0.0               | 19                  | 5.x          |
-| 10.0.0              | 20                  | 5.x          |
-
-_*Note: The formiojs namespace changes from formiojs (4.x) to @formio/js (5.x)_
-
-## Angular 19
-Angular 19 versions are currently released as "latest" so you can install with Angular 19 with the following commands.
+## For the latest version, install via the following commands:
 
 ### NPM
     npm install --save @formio/angular
@@ -31,7 +18,7 @@ Angular 19 versions are currently released as "latest" so you can install with A
 ### Yarn
     yarn add --save @formio/angular
 
-## Angular 18
+## For previous Angular versions, the following commands with the relevant Angular version can be referenced:
 ### NPM
     npm install --save @formio/angular@a18
 
@@ -50,8 +37,6 @@ To run a demo of the Form.io Angular renderer, please follow these steps.
 This will startup an example application where you can see all the features provided by this module.
 
 Here is the hosted demo application [https://formio.github.io/angular-demo/](https://formio.github.io/angular-demo)
-
-### Note: If you wish to see the Angular Demo for Angular 16, then use the 6.0.x branch of this repo.
 
 Using within your application
 ---------------------------
